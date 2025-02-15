@@ -8,10 +8,10 @@ app.use(express.json());
 
 // ✅ Connect to **LOCAL MySQL** instead of Render
 const db = mysql.createConnection({
-  host: "localhost",  // ✅ Back to localhost
-  user: "root",       // ✅ Your local MySQL username
-  password: "Yahya@sql20",       // ✅ Your local MySQL password (leave empty if none)
-  database: "food_orders", // ✅ Your local database name
+  host: "sql12.freesqldatabase.com",  // ✅ Back to localhost
+  user: "sql12762911",       // ✅ Your local MySQL username
+  password: "3WKUNgReP5",       // ✅ Your local MySQL password (leave empty if none)
+  database: "sql12762911", // ✅ Your local database name
   port: 3306          // ✅ Standard MySQL port
 });
 
